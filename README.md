@@ -16,9 +16,6 @@ This project demonstrates the application of transfer learning techniques for cl
 The project supports the following medical imaging datasets:
 
 - **Chest X-Ray**: Pneumonia detection (NORMAL vs PNEUMONIA)
-- **Brain Tumor**: Tumor detection (no/yes)
-- **Blood Cells**: Cell type classification (LYMPHOCYTE, MONOCYTE, NEUTROPHIL)
-- **Skin Cancer**: HAM10000 dataset for skin lesion classification
 
 ## Models
 
@@ -138,11 +135,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Author
 
 Akrash Noor
+Hifzun Nisa
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Disclaimer
+
 
 This project is for educational and research purposes. The models and results should not be used for actual medical diagnosis without proper validation and clinical evaluation.
