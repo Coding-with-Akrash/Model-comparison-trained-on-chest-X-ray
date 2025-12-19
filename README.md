@@ -7,7 +7,7 @@ This project demonstrates the application of transfer learning techniques for cl
 - **Multi-Framework Support**: Implements transfer learning using both PyTorch and TensorFlow
 - **Multiple Pre-trained Models**: Includes popular architectures like ResNet, VGG, EfficientNet, MobileNet, ViT, and DenseNet
 - **Comprehensive Evaluation**: Provides detailed model comparison with metrics, confusion matrices, and ROC curves
-- **Multiple Datasets**: Supports various medical imaging datasets including chest X-rays, brain tumors, blood cells, and skin cancer
+- **Datasets**: Supports medical imaging dataset chest X-rays
 - **Automated Training**: Scripts for batch training across different models and datasets
 - **Visualization**: Generates plots for training history, confusion matrices, and performance comparisons
 
@@ -145,3 +145,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 
 This project is for educational and research purposes. The models and results should not be used for actual medical diagnosis without proper validation and clinical evaluation.
+
