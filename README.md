@@ -1,7 +1,8 @@
 # Transfer Learning for Medical Image Classification
 
 This project demonstrates the application of transfer learning techniques for classifying medical images using both PyTorch and TensorFlow frameworks. It focuses on pneumonia detection in chest X-rays but includes support for multiple medical imaging datasets.
-
+---
+---
 ## Features
 
 - **Multi-Framework Support**: Implements transfer learning using both PyTorch and TensorFlow
@@ -10,13 +11,15 @@ This project demonstrates the application of transfer learning techniques for cl
 - **Datasets**: Supports medical imaging dataset chest X-rays
 - **Automated Training**: Scripts for batch training across different models and datasets
 - **Visualization**: Generates plots for training history, confusion matrices, and performance comparisons
-
+---
+---
 ## Datasets
 
 The project supports the following medical imaging datasets:
 
 - **Chest X-Ray**: Pneumonia detection (NORMAL vs PNEUMONIA)
-
+---
+---
 ## Models
 
 ### PyTorch Models
@@ -33,7 +36,8 @@ The project supports the following medical imaging datasets:
 - Custom ResNet
 - Custom EfficientNet
 - Custom CNN
-
+---
+---
 ## Installation
 
 1. Clone the repository:
@@ -48,7 +52,8 @@ pip install torch torchvision torchaudio
 pip install tensorflow keras
 pip install numpy pandas matplotlib seaborn scikit-learn opencv-python
 ```
-
+---
+---
 ## Usage
 
 ### Training Models
@@ -84,7 +89,7 @@ python comp.py
 ```
 
 Similar to model_comparison.py but with simplified output.
-
+---
 ## Project Structure
 
 ```
@@ -108,7 +113,8 @@ Similar to model_comparison.py but with simplified output.
 ├── LICENSE
 └── README.md
 ```
-
+---
+---
 ## Results
 
 After running the evaluation scripts, you'll find:
@@ -118,7 +124,8 @@ After running the evaluation scripts, you'll find:
 - Individual confusion matrix images: `{model_name}_confusion_matrix.png`
 - ROC curve comparison: `roc_curves_comparison.png`
 - Training history plots: `{model_name}_{dataset}_history.png`
-
+---
+---
 ## Key Findings
 
 The project compares different transfer learning approaches across medical imaging tasks, demonstrating:
@@ -127,22 +134,35 @@ The project compares different transfer learning approaches across medical imagi
 - Effectiveness of transfer learning for medical image classification
 - Comparative analysis of PyTorch vs TensorFlow implementations
 - Visualization of model predictions and evaluation metrics
-
+---
+---
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+---
+---
 ## Author
 
-Akrash Noor
-Hifzun Nisa
+- Akrash Noor
+- Hifzun Nisa
+- Laraib Fatima
+- Maarij Ahmad
+---
+---
+## Supervisor
 
+Dr. Rizwan Taj (Professor University of Wah)
+---
+---
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
+---
+---
 ## Disclaimer
 
 
 This project is for educational and research purposes. The models and results should not be used for actual medical diagnosis without proper validation and clinical evaluation.
-
+---
+---
+---
